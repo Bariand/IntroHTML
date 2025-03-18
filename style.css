@@ -40,7 +40,7 @@ h1{
     left: 37rem;
     text-align: left;
     text-decoration: overline;
-    text-shadow: 2px 2px 1px forestgreen;
+    text-shadow: 1.2px 1.2px 1px forestgreen;
 }
 
 .container{
@@ -119,6 +119,17 @@ th{
 h2{
     text-align: center;
     padding: 5rem 0 4rem 0;
+}
+
+header h2{
+    text-align:start;
+    padding: 1rem;
+    background-color: green;
+    color:yellow;
+}
+
+footer p{
+    text-align: center;
 }
 
 @media screen and (min-width: 1517px){
